@@ -46,12 +46,11 @@ header {
 header > p{
     color: white;
     font-size: 1.2em;
-    font-family: var(--fonte-destaque);
-    max-width: 500px;
+    font-family: var(--fonte-padrao);
+    max-width:600px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
@@ -99,7 +98,7 @@ main {
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
-    font-weight: normal;
+    font-weight: bold;
     text-indent: 8px;
     font-size: 1.8em;
 }
@@ -108,7 +107,7 @@ main h2{
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-size: 1.3em;
-    font-weight: normal;
+    font-weight: bold;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
     padding-top: 3px;
